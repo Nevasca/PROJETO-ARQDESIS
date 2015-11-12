@@ -3,6 +3,6 @@ Projeto de Locadora de Automóveis para a matéria de ARQDESIS (Universidade Sã
 
 Integrantes:
 
-Bruno Sanches: 201309801
-Erica Cristina: 201318025
+Bruno Sanches: 201309801<br><br>
+Erica Cristina: 201318025<br><br>
 Gustavo Vocatore: 201304509
