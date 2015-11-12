@@ -1,0 +1,229 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        tools:context="br.usjt.aula12.controller.DetalheAutomovelActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:lines="1"
+            android:textStyle="bold"
+            android:text="Escolha suas opções"
+            android:id="@+id/TVModeloAutomovelDetalhes"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/fabricante_detalhes"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/LBFabricanteDetalhes"
+            android:layout_below="@+id/TVModeloAutomovelDetalhes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/LBFabricanteDetalhes"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="--fabricante--"
+            android:id="@+id/TVFabricanteAutomovelDetalhes"
+            android:layout_below="@+id/TVModeloAutomovelDetalhes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LBFabricanteDetalhes"
+            android:layout_marginTop="10dp"
+            android:text="@string/grupo_detalhes"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/LBGrupoDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/LBGrupoDetalhes"
+            android:layout_below="@id/TVFabricanteAutomovelDetalhes"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="--grupo--"
+            android:id="@+id/TVGrupoAutomovelDetalhes"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LBGrupoDetalhes"
+            android:layout_marginTop="10dp"
+            android:text="@string/acessorio_detalhes"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/LBAcessorioDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/LBAcessorioDetalhes"
+            android:layout_below="@id/TVGrupoAutomovelDetalhes"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="--acessorio--"
+            android:id="@+id/TVAcessorioAutomovelDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LBAcessorioDetalhes"
+            android:layout_marginTop="10dp"
+            android:text="@string/chassi_detalhes"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/LBChassiDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/LBChassiDetalhes"
+            android:layout_below="@id/TVAcessorioAutomovelDetalhes"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="--chassi--"
+            android:id="@+id/TVChassiAutomovelDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LBChassiDetalhes"
+            android:layout_marginTop="10dp"
+            android:text="@string/placa_detalhes"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/LBPlacaDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/LBPlacaDetalhes"
+            android:layout_below="@id/TVChassiAutomovelDetalhes"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="--placa--"
+            android:id="@+id/TVPlacaAutomovelDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LBPlacaDetalhes"
+            android:layout_marginTop="10dp"
+            android:text="@string/cidade_detalhes"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/LBCidadeDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/LBCidadeDetalhes"
+            android:layout_below="@id/TVPlacaAutomovelDetalhes"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="--cidade--"
+            android:id="@+id/TVCidadeAutomovelDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LBCidadeDetalhes"
+            android:layout_marginTop="10dp"
+            android:text="@string/uf_detalhes"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/LBUfDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/LBUfDetalhes"
+            android:layout_below="@id/TVCidadeAutomovelDetalhes"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="--uf--"
+            android:id="@+id/TVUfAutomovelDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LBUfDetalhes"
+            android:layout_marginTop="10dp"
+            android:text="@string/quilometragem_detalhes"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/LBQuilometragemDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/LBQuilometragemDetalhes"
+            android:layout_below="@id/TVUfAutomovelDetalhes"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="--quilometragem--"
+            android:id="@+id/TVQuilometragemAutomovelDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LBQuilometragemDetalhes"
+            android:layout_marginTop="10dp"
+            android:text="@string/tarifaS_detalhes"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/LBTarifaSDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/LBTarifaSDetalhes"
+            android:layout_below="@+id/TVQuilometragemAutomovelDetalhes"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="--tarifa simples--"
+            android:id="@+id/TVTarifaSAutomovelDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LBTarifaSDetalhes"
+            android:layout_marginTop="10dp"
+            android:text="@string/tarifaC_detalhes"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/LBTarifaCDetalhes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/LBTarifaCDetalhes"
+            android:layout_below="@id/TVTarifaSAutomovelDetalhes"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="--tarifa controlada--"
+            android:id="@+id/TVTarifaCAutomovelDetalhes"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

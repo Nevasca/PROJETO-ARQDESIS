@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Automóveis BEG</string>
+
+    <string name="hello_world">Alô Mundo!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="botaoConsultar">Consultar</string>
+    <string name="cabecalho_main">Encontre seu automóvel</string>
+
+    <string-array name="cidades">
+        <item>Selecione a cidade...</item>
+        <item>São Paulo</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Branco</item>
+    </string-array>
+    <string name="title_activity_consulta_automovel">Automóveis Consultados</string>
+    <string name="title_activity_detalhe_automovel">Detalhes do Automóvel</string>
+
+    <string name="fabricante_detalhes">Fabricante:</string>
+    <string name="grupo_detalhes">Grupo:</string>
+    <string name="acessorio_detalhes">Acessório:</string>
+    <string name="chassi_detalhes">Chassi:</string>
+    <string name="placa_detalhes">Placa:</string>
+    <string name="cidade_detalhes">Cidade:</string>
+    <string name="uf_detalhes">UF:</string>
+    <string name="quilometragem_detalhes">Quilometragem:</string>
+    <string name="tarifaS_detalhes">Tarifa Simples:</string>
+    <string name="tarifaC_detalhes">Tarifa Controlada:</string>
+</resources>

@@ -1,0 +1,203 @@
+body {	
+
+	background-color: #f5f7fa;
+}
+
+.pagina-coberta {
+	
+	overflow: hidden;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #249cf2;
+    border: none;
+    margin-bottom: 0;
+    z-index: 1000;
+}
+
+/* Campo de Busca */
+.navbar-default form{
+	
+	margin-top: 7px;
+	/*margin-right: 15px;*/
+}
+.navbar-default form input{
+	
+	background-color: #1f85ce;
+	color: #bee1fb;
+	border: 1px solid #1b75b5;
+}
+
+.navbar-default form input:focus{
+	
+	border-color: #bee1fb;
+}
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #bee1fb;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+
+.cobre-pagina {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 999;
+	top: 0;
+	left: 0;
+}
+
+.volta-topo {
+	
+	position: fixed;
+	z-index: 998;
+	width: 50px;
+	height: 50px;
+	bottom: 15px;
+	right: 15px;
+	
+}
+
+.volta-topo a {
+	
+	decoration: none;
+	color: #249cf2;
+	background-color: #fff;
+	border: 1px solid #249cf2;
+}
+
+.volta-topo a:hover {
+	color: #fff;
+	background-color: #249cf2;
+}
+
+.erro-form {
+	color: #ff0000;
+	
+}
+
+.campo-obrigatorio {
+	color: #249cf2;
+	font-weight: bold;
+}
+
+.jumb-sucesso {
+	background-color: #57d957;
+	color: #fff;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.jumb-sucesso h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+.jumb-sucesso-sm {
+	background-color: #57d957;
+	color: #fff;
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+}
+
+.jumb-alerta {	
+	background-color: #F4403D;
+	color: #fff;
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+}
+
+.jumb-exclusao {
+	display: none;
+	background-color: #F4403D;
+	color: #fff;
+	margin-top: 15px;
+	padding: 20px;
+	text-align: center;
+}
+
+.well {
+	background-color: #fff;
+	border-color: #b8c3d9;
+	border-left: 6px solid #f25749;
+	margin-top: 50px;
+}
+
+/* Titulo do Well */
+.well h4{
+	margin-bottom: 40px; 
+	padding-bottom: 5px; 
+	border-bottom: 1px solid /*#b8c3d9*/ /*#249cf2*/ #f25749;
+	color: /*#249cf2*/ #f25749;
+	/*color: #f25749;*/
+}
+
+.well h4 i {
+	font-size: 11px;
+	margin-left: 10px;
+}
+
